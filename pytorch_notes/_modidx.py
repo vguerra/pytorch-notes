@@ -5,4 +5,4 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://vguerra.github.io',
                 'git_url': 'https://github.com/vguerra/pytorch-notes',
                 'lib_path': 'pytorch_notes'},
-  'syms': {'pytorch_notes.core': {'pytorch_notes.core.foo': ('core.html#foo', 'pytorch_notes/core.py')}}}
+  'syms': {}}

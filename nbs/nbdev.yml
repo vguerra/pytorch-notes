@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "PyTorch compilers notes"
+  site-url: "https://vguerra.github.io/pytorch-notes"
+  description: "Notes related to PyTorch compilers"
+  repo-branch: main
+  repo-url: "https://github.com/vguerra/pytorch-notes"

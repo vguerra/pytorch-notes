@@ -14,4 +14,4 @@ jobs:
     steps:
     - uses: vguerra/fastai-workflows/quarto-ghp@master
       with:
-        use-requirements-file: true
+        use_requirements_file: true

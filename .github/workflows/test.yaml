@@ -7,5 +7,5 @@ jobs:
     steps:
     - uses: vguerra/fastai-workflows/nbdev-ci@master
       with:
-        use-requirements-file: true
+        use_requirements_file: true
 

@@ -11,4 +11,7 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    steps: [uses: fastai/workflows/quarto-ghp@master]
+    steps:
+    - uses: vguerra/fastai-workflows/quarto-ghp@master
+      with:
+        use-requirements-file: true

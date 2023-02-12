@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "torch-fx.html",
+    "href": "torch-fx.html",
+    "title": "Torch.FX",
+    "section": "",
+    "text": "It allows for Python to Python transformations of torch.nn.Module instances, allowing for the creation of pipelines of transformations that we can compose.\nThe 3 main components are: * Symbolic tracing. * Provides an IR. * Utilities for code generation.\nThe transformations are called Passes.\nAn introductory video about Torch Fx."
+  },
+  {
+    "objectID": "torch-fx.html#modifying-graphs",
+    "href": "torch-fx.html#modifying-graphs",
+    "title": "Torch.FX",
+    "section": "Modifying Graphs",
+    "text": "Modifying Graphs\n\nDirect manipulation\nYou can modify the nodes in place and construct new fx.GraphModules.\nNote: use lint method to make sure the Graph is well-formed.\nThere is as well a lot of utility funcitons that you can use to rewrite Graphs.\n\n\nUsing symbolic tracing\nUsing the Proxy machinery. The idea is to use Proxy objects as inputs so that they can automatically record operations into the Graph. You can specify rewrite rules as native Python code.\n\nform torch.fx import Interpreter"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "pytorch-notes",
+    "section": "",
+    "text": "This file will become your README and also the index of your documentation."
+  },
+  {
+    "objectID": "index.html#install",
+    "href": "index.html#install",
+    "title": "pytorch-notes",
+    "section": "Install",
+    "text": "Install\npip install pytorch_notes"
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "pytorch-notes",
+    "section": "How to use",
+    "text": "How to use\nFill me in please! Don’t forget code examples:\n\n1+1\n\n2"
+  }
+]
